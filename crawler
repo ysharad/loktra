@@ -1,0 +1,34 @@
+
+import mechanize
+import urllib
+import json
+from bs4 import BeautifulSoup
+
+def getKeys(keyword,num):
+    
+    url="http://www.shopping.com/products~PG-"+str(num)"?KW="+str(keyword)
+    jtext = urllib.urlopen(url)
+    search("television")
+    return jtext
+    print(page_number)
+    
+
+
+    
+def search(term):
+    page_number = 38
+    meta = 1
+    while meta > 0 and page_number<1:
+        for keyword in keywords; 
+        do
+  
+    wget http://www.shopping.com/products~PG-"+str(num)"?KW="+str(keyword)
+    
+  done
+done
+page_number+=1            
+        
+    
+    
+
+

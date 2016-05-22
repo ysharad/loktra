@@ -1,0 +1,19 @@
+def reversehash(index):
+	
+
+	letters = "abcdefgh"
+	result = ""
+	while(index != 7 and index > 0):
+		index_no = index % 37
+		if index_no < len(letters):
+			result = letters[index_no] + result
+		else:
+			return "hashing can not be done"	
+		index = (index -index_no) / 37
+
+	if(index == 7):
+		return result
+	else:
+	    return "hashing can not be done"		
+
+print reversehash()
